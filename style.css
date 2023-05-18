@@ -1,0 +1,18 @@
+#map {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+#card {
+    width: 50%;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
