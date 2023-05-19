@@ -47,7 +47,7 @@ function displayPlaceInfo(place) {
 }
 
 // Replace this with the actual URL or path to your JSON file
-var jsonDataUrl = 'fdlv2.json';
+var jsonDataUrl = 'data/fdlv4.json';
 
 $.getJSON(jsonDataUrl, function(data) {
     initMarkers(data);
