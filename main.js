@@ -1,10 +1,10 @@
 // Map Initialization
 var map = L.map('map',{
-    scrollWheelZoom: false,
-    zoomControl: false,
-    dragging: false,
-    touchZoom: false,
-    tap: false
+    scrollWheelZoom: true,
+    zoomControl: true,
+    dragging: true,
+    touchZoom: true,
+    tap: true
 }).setView([-6.16600, 39.5000], 10);
 // var map = L.map('map').setView([-6.141558, 39.334626],10);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
