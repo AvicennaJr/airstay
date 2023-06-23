@@ -15,7 +15,7 @@ body {
 /* Header */
 header {
     background-color: #1651c5;
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
