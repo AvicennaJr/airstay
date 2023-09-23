@@ -21,7 +21,7 @@ function initMarkers(data) {
     const content = `
       <div class="card">
         <h3>${place.name}</h3>
-        <p>${place.address}</p>
+        <p>${place.ward}</p>
         <img src="${place.photos[0].thumbnailUrl}" alt="${place.name}" />
         <p>Price: ${place.pricing.rate.amountFormatted} ${place.pricing.rate.currency}/${place.pricing.rateType}</p>
         <p>Host: ${place.primaryHost.firstName}</p>
